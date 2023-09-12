@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning html</title>
+	<link rel="stylesheet" type="text/css" href="coffeeshop.css">
+</head>
+<body>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="product.html">product</a>
+		<a href="contact us.html">contact us</a>
+	</nav>
+	<span style="border:2px solid red;display:block;">span1</span>
+	<span style="border:2px solid green;display: block;">span2</span>
+	<div style="border:2px solid red;display:inline;">div1</div>
+	<div style="border:2px solid green;display:inline;">div2</div>
+	<ul class="coffee-list">
+		<li>Mocha</li>
+		<li>Cappuccino</li>
+		<li>Espresso</li>
+		<li>Double Espresso</li>
+		<li>Latte</li>
+	</ul>
+	<ol style="list-style-type:A;">
+		<li>choose the coffee</li>
+		<li>order the coffee</li>
+		<li>complete the payment</li>
+		<li>deliver the coffee</li>
+		<li>enjoy the coffee</li>
+	</ol>
+	<dl>
+		<dt>Mocha coffee</dt>
+		<dd>Mocha coffee beans are from the plant species called coffee arabica,and it was originally only grown in Mocha, yemen</dd>
+		<dt>Cappuccino coffee</dt>
+		<dd>Cappuccino is typically composed of a single espresso shot and hot milk</dd>
+	</dl>
+	<div>
+		<table class="pricing-table">
+			<caption class=caption-heading>
+			coffee menu</caption>
+			<tr>
+				<th>coffee name</th>
+				<th>price(in rs)</th>
+				<th>availability</th>
+			</tr>
+			<tr class=tr-out-of-stock>
+				<td>Mocha</td>
+				<td>140</td>
+				<td>out of stock</td>
+			</tr>
+			<tr class=tr-in-stock>
+				<td>Cappuccino</td>
+				<td>170</td>
+				<td>In stock</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class=available-coffee>
+		<p>This is a paragraph</p>
+		<p>This is <b>bold</b>
+			<p>This is <i>italic</i>
+				<p>This is <strong>strong</strong>
+					<p>This is <em>emphasized</em>
+						<p>This is <sub>subscript</sub>
+							<p>This is <sup>supscript</sup>
+								<p>this is <del>deleted</del>
+	<div class="available-coffee out-of-stock" id="mocha" style="display: inline-block;"> 
+		<h4>Mocha</h4>
+		<img src="mocha.png" class="div-img">
+	</div>
+	<div class="available-coffee in-stock" style="display: inline-block;">
+		<h4>Cappuccino</h4>
+		<img src="cappuccino.png" class="div-img">
+	</div>
+<footer class="footer">
+	<div style="height:50%;">
+		<a href="index.html">Home</a>
+		<a href="product.html">product</a>
+	</div>
+	<div style="height:50%;">
+		Designed by Bolt Copyright@Interven.com
+	</div>
+</footer>
+ </body>
+ </html>

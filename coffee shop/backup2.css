@@ -1,0 +1,29 @@
+.first-div{
+height: 200px;
+border:30px solid red;
+margin:40px;
+padding:20px 0px 20px 0px;
+	
+}
+*{
+	font-size: 20px;
+}
+.myclass{
+	color: red;
+}
+#myid{
+	background-color: orange;
+}
+
+#myid2{
+	background-color: green;
+}
+[href="https://www.google.com"]{
+	color:red;
+}
+h1,div{
+	color:blue;
+}
+.family-line{
+	color:blue;
+}
